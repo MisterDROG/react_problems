@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+// import { useEffect } from 'react';
 
 function Timer() {
     const [sec, setSec] = useState(0)
@@ -23,7 +24,7 @@ function Timer() {
 
     return (
         <div>
-            <p>TIMER:</p>
+            <p style={{fontWeight: 'bold', color: 'blue'}}>TIMER TASK</p>
             <p>{sec}</p>
             <button onClick={timerHandlerStart}>Start</button>
             <button onClick={timerHandlerEnd}>End</button>
