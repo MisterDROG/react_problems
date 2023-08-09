@@ -32,7 +32,7 @@ function Incrementer() {
 
     return (
         <>
-            <p style={{fontWeight: 'bold', color: 'blue'}}>INCREMENTER TASK</p>
+            <p style={{fontWeight: 'bold', color: 'blue', marginTop: '30px'}}>INCREMENTER TASK</p>
             <div>{countN}</div>
             <button onClick={timerStart}>timerStart</button>
             <div>{count}</div>

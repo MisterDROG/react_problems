@@ -22,7 +22,7 @@ function ForceComp() {
 
     return (
         <>
-            <p style={{fontWeight: 'bold', color: 'blue'}}>FORCE UPDATE TASK</p>
+            <p style={{fontWeight: 'bold', color: 'blue', marginTop: '30px'}}>FORCE UPDATE TASK</p>
             <p>Amount of updates: {updCountRef.current}</p>
             <button onClick={forceUpdateN}>Update</button>
             <ForceUpdateNested forceUpdateN={forceUpdateN}/>
