@@ -5,6 +5,7 @@ import Incrementer from './components/incrementer';
 import Timer from './components/timer';
 import Form from './components/formCorrect'
 import {Person} from './components/formCorrect'
+import DelayInput from './components/delayCall2'
 
 function App() {
   console.log('app', Form)
@@ -16,6 +17,7 @@ function App() {
       <Incrementer/>
       <HookBoleanComp/>
       <Form Component = {Person}/>
+      <DelayInput />
     </div>
   );
 }
